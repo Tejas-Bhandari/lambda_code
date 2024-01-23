@@ -2,18 +2,18 @@ import boto3
 
 dynamodb_client = boto3.client(
     "dynamodb",
-    aws_access_key_id="AKIA6GBMCRBNFE3P4EOO",
-    aws_secret_access_key="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",
+    aws_access_key_id="#",
+    aws_secret_access_key="#",
 )
 s3_client = boto3.client(
     "s3",
-    aws_access_key_id="AKIA6GBMCRBNFE3P4EOO",
-    aws_secret_access_key="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",
+    aws_access_key_id="#",
+    aws_secret_access_key="#",
 )
 lambda_client = boto3.client(
     "lambda",
-    aws_access_key_id="AKIA6GBMCRBNFE3P4EOO",
-    aws_secret_access_key="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",
+    aws_access_key_id="#",
+    aws_secret_access_key="#",
 )
 
 dynamodb_response = dynamodb_client.list_tables()
